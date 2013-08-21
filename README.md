@@ -7,3 +7,6 @@ What it's really about: an excuse to mess with the private api AudioServicesPlay
 
 
 -- --- .-. .... .     -.-. --- -.. .     --. . -. . .-. .- - --- .-.
+
+
+Note that the app was created in Xcode5 and would not open in Xcode4.
