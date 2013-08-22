@@ -5,6 +5,13 @@ Simple app that converts ascii into morse code, with options to present the code
 
 What it's really about: an excuse to mess with the private api AudioServicesPlaySystemSoundWithVibration to generate patterned vibrations. See http://stackoverflow.com/questions/12966467/are-there-apis-for-custom-vibrations-in-ios for details.
 
+For details please refer to this post:
+
+http://corgitoergosum.net/2013/08/22/fun-with-private-apis/
+
+
+<img src="morse_code_generator.png" style="width: 500px;"/>
+
 
 -- --- .-. .... .     -.-. --- -.. .     --. . -. . .-. .- - --- .-.
 
