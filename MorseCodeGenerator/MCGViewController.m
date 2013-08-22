@@ -297,22 +297,22 @@
         
         switch ([morseCodeNumber integerValue]) {
             case MCGMorseCodeDit:
-                [patternsArray addObject:[NSNumber numberWithBool:YES]]; //vibrate for 500ms
-                [patternsArray addObject:[NSNumber numberWithInt:500]];
+                [patternsArray addObject:@(YES)]; //vibrate for 500ms
+                [patternsArray addObject:@(500)];
                 break;
             case MCGMorseCodeDah:
                 //vibrate for 1500ms
-                [patternsArray addObject:[NSNumber numberWithBool:YES]];
-                [patternsArray addObject:[NSNumber numberWithInt:1500]];
+                [patternsArray addObject:@(YES)];
+                [patternsArray addObject:@(1500)];
                 break;
             case MCGMorseCodeSingleSpace:
-                [patternsArray addObject:[NSNumber numberWithBool:NO]]; //pause for 500ms
-                [patternsArray addObject:[NSNumber numberWithInt:500]];
+                [patternsArray addObject:@(NO)]; //pause for 500ms
+                [patternsArray addObject:@(500)];
                 break;
             case MCGMorseCodeThreeSpaces:
                 //pause for 1500ms
-                [patternsArray addObject:[NSNumber numberWithBool:NO]];
-                [patternsArray addObject:[NSNumber numberWithInt:1500]];
+                [patternsArray addObject:@(NO)];
+                [patternsArray addObject:@(1500)];
                 break;
             default:
                 break;
